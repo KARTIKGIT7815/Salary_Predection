@@ -25,6 +25,6 @@ def f2():
     return render_template('Task2.html', name=name, salary=predicted_salary, experience=YearsExperience)
 
 if __name__ == '__main__':
-     #app.run(debug=True)
-     app.run(host='0.0.0.0', port=8000)
+     app.run(debug=True)
+     #app.run(host='0.0.0.0', port=8000)
 
